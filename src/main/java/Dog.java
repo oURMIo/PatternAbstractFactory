@@ -13,4 +13,9 @@ public class Dog implements Animal{
     public boolean active() {
         return true;
     }
+
+    @Override
+    public void print() {
+        System.out.printf("It's %s and make sound %s",type(),sound());
+    }
 }
