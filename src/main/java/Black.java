@@ -1,4 +1,4 @@
-public class Black implements Fur{
+public class Black implements Fur {
     @Override
     public String color() {
         return "Black";
