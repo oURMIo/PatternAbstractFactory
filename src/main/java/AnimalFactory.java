@@ -1,4 +1,4 @@
-public class AnimalFactory implements AbstractFactory<Animal, Fur>{
+public class AnimalFactory implements AbstractFactory<Animal,Fur>{
     @Override
     public Animal createA(String animalType) {
         if ("Dog".equalsIgnoreCase(animalType)) {
@@ -18,10 +18,10 @@ public class AnimalFactory implements AbstractFactory<Animal, Fur>{
         }
         return null;
     }
-    public static void print(Animal obj1, Fur obj2) {
-        System.out.printf("%n It's a %s and make sound %s with %s fur",
-                obj1.type(),
-                obj1.sound(),
-                obj2.color());
-    }
+//    public static void print(Animal obj1, Fur obj2) {
+//        System.out.printf("%n It's a %s and make sound %s with %s fur",
+//                obj1.type(),
+//                obj1.sound(),
+//                obj2.color());
+//    }
 }
