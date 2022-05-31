@@ -1,3 +1,7 @@
+/**
+ * ConcreteFactory
+ */
+
 public class CatFactory implements AbstractFactory {
     @Override
     public Animal createAnimal() {

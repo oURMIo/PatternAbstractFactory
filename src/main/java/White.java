@@ -1,3 +1,7 @@
+/**
+ * ConcreteProduct
+ */
+
 public class White implements Fur{
     @Override
     public String color() {

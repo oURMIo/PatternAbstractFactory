@@ -1,3 +1,7 @@
+/**
+ * ConcreteProduct
+ */
+
 public class Dog implements Animal{
     @Override
     public String type() {

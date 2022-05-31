@@ -1,3 +1,7 @@
+/**
+ * ConcreteFactory
+ */
+
 public class DogFactory implements AbstractFactory{
     @Override
     public Animal createAnimal() {
